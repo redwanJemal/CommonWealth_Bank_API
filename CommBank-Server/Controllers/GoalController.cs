@@ -11,6 +11,7 @@ public class GoalController : ControllerBase
     private readonly IGoalsService _goalsService;
     private readonly IUsersService _usersService;
 
+    // Goal
     public GoalController(IGoalsService goalsService, IUsersService usersService)
     {
         _goalsService = goalsService;
